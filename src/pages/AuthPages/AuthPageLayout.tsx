@@ -21,7 +21,7 @@ export default function AuthLayout({
                 <img
                   width={150}
                   height={48}
-                  src="https://positiva.co.ao/img/logo.svg"
+                  src="/images/logo/logo.svg"
                   alt="Logo"
                 />
               </Link>

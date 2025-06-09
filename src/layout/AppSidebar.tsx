@@ -2,16 +2,11 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router";
 
 import {
-  BoxCubeIcon,
   CalenderIcon,
   ChevronDownIcon,
   GridIcon,
   HorizontaLDots,
-  ListIcon,
-  PageIcon,
   PieChartIcon,
-  PlugInIcon,
-  TableIcon,
   UserCircleIcon,
 } from "../icons";
 import { useSidebar } from "../context/SidebarContext";
@@ -268,22 +263,22 @@ const AppSidebar: React.FC = () => {
             <>
               <img
                 className="dark:hidden"
-                src="https://positiva.co.ao/img/logo.svg"
+                src="./images/logo/logo.svg"
                 alt="Logo"
-                width={120}
+                width={50}
                 height={40}
               />
               <img
                 className="hidden dark:block"
-                src="https://positiva.co.ao/img/logo.svg"
+                src="./images/logo/logo.svg"
                 alt="Logo"
-                width={120}
+                width={50}
                 height={40}
               />
             </>
           ) : (
             <img
-              src="https://positiva.co.ao/img/logo.svg"
+              src="./images/logo/logo.svg"
               alt="Logo"
               width={50}
               height={32}
